@@ -1,0 +1,42 @@
+{
+    "Naloxone": {
+        "pageSize": 5,
+        "pageNumber": 1,
+        "result": {
+            "classType": "searchResults",
+            "results": [
+                {
+                    "ui": "C0027358",
+                    "rootSource": "MTH",
+                    "uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C0027358",
+                    "name": "naloxone"
+                },
+                {
+                    "ui": "C0700549",
+                    "rootSource": "MTH",
+                    "uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C0700549",
+                    "name": "naloxone hydrochloride"
+                },
+                {
+                    "ui": "C0717936",
+                    "rootSource": "RXNORM",
+                    "uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C0717936",
+                    "name": "naloxone / pentazocine"
+                },
+                {
+                    "ui": "C1169989",
+                    "rootSource": "RXNORM",
+                    "uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C1169989",
+                    "name": "buprenorphine / naloxone"
+                },
+                {
+                    "ui": "C3848704",
+                    "rootSource": "RXNORM",
+                    "uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C3848704",
+                    "name": "naloxone / oxycodone"
+                }
+            ],
+            "recCount": 276
+        }
+    }
+}
