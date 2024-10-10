@@ -1,0 +1,1 @@
+In this repo, I am working on creating a knowledge graph using the UMLS databases to build a RAG-driven LLM in medical domain.
