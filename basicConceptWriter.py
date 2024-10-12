@@ -2,7 +2,7 @@ import json
 import os
 
 # Input: return of term2cui.py 
-def writeTerm2Uri(results):
+def basicConceptWriter(results):
     for result in results:
         concept = {
             "name": result["name"],

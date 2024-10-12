@@ -1,6 +1,6 @@
 import requests
 
-def uri2info(ApiKey, uri):
+def conceptUriResolver(ApiKey, uri):
     payload = {"apiKey":ApiKey}
     r = requests.get(uri, params=payload)
     response = r.json()    

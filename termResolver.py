@@ -1,7 +1,7 @@
 import requests
-from writeTerm2Uri import *
+from basicConceptWriter import *
 
-def term2cui(ApiKey, term):
+def termResolver(ApiKey, term):
     
     # build a directoty to save the searched terms in a json format 
     writeDirectory = "savedTerms"
@@ -34,6 +34,9 @@ def term2cui(ApiKey, term):
         payload = {"string":term, "pageNumber":pageNumber, "searchType":searchType, "pageSize":pageSize, "apiKey":ApiKey}
         r = requests.get('https://uts-ws.nlm.nih.gov/rest/search/current', params=payload)
         response = r.json()
+
+        # saving each concept
+        basicConceptWriter(response["result"]["results"])
 
         # log
         terms[term] = response

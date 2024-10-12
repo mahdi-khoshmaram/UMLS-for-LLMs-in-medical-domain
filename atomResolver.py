@@ -1,9 +1,9 @@
 import requests
 
-def atoms(ApiKey, uri):
+def atomResolver(ApiKey, uri):
     payload = {"language":"ENG","apiKey":ApiKey}
     r = requests.get(uri, params=payload)
-    print(r.url)
+    # print(r.url)
     response = r.json()    
     return response["result"]
 
