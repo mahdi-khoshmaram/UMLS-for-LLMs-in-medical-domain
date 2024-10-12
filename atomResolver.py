@@ -5,7 +5,19 @@ def atomResolver(ApiKey, uri):
     r = requests.get(uri, params=payload)
     # print(r.url)
     response = r.json()    
-    return response["result"]
+
+    atomsList = response["result"]
+    atoms = list()
+    for atom in atomsList:
+        atomDict = {}
+        atomDict["name"] = atom["name"]
+        atomDict["AUI"] = atom["ui"]
+        atomDict["rootSource"] = atom["rootSource"] 
+        atomDict["termType"] = atom["termType"] 
+        atomDict["code"] = atom["code"] 
+        atomDict["relations"] = atom["relations"] 
+        atoms.append(atomDict)
+    return atoms
 
 
 #return sample

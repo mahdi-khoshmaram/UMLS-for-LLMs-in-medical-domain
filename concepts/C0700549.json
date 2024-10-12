@@ -2,5 +2,6 @@
     "name": "naloxone hydrochloride",
     "ui": "C0700549",
     "rootSource": "MTH",
-    "uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C0700549"
+    "ConceptUri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C0700549",
+    "uriOfConceptResolved": false
 }

@@ -2,5 +2,240 @@
     "name": "naloxone",
     "ui": "C0027358",
     "rootSource": "MTH",
-    "uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C0027358"
+    "ConceptUri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C0027358",
+    "uriOfConceptResolved": true,
+    "semanticTypes": [
+        {
+            "name": "Organic Chemical",
+            "uri": "https://uts-ws.nlm.nih.gov/rest/semantic-network/2024AA/TUI/T109"
+        }
+    ],
+    "atoms": [
+        {
+            "name": "naloxone",
+            "AUI": "A0484452",
+            "rootSource": "AOD",
+            "termType": "DE",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/AOD/0000020562",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0484452/relations"
+        },
+        {
+            "name": "naloxone",
+            "AUI": "A0484454",
+            "rootSource": "MMSL",
+            "termType": "GN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MMSL/d00311",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0484454/relations"
+        },
+        {
+            "name": "naloxone",
+            "AUI": "A31563199",
+            "rootSource": "MTH",
+            "termType": "PN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MTH/NOCODE",
+            "relations": "NONE"
+        },
+        {
+            "name": "1-N-Allyl-14-hydroxynordihydromorphinone",
+            "AUI": "A27063516",
+            "rootSource": "DRUGBANK",
+            "termType": "SY",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/DRUGBANK/DB01183",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A27063516/relations"
+        },
+        {
+            "name": "Nalossone",
+            "AUI": "A30137051",
+            "rootSource": "DRUGBANK",
+            "termType": "FSY",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/DRUGBANK/DB01183",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A30137051/relations"
+        },
+        {
+            "name": "naloxone",
+            "AUI": "A31677864",
+            "rootSource": "RXNORM",
+            "termType": "IN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/7242",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31677864/relations"
+        },
+        {
+            "name": "Naloxone",
+            "AUI": "A23511491",
+            "rootSource": "LNC",
+            "termType": "CN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/LNC/MTHU013159",
+            "relations": "NONE"
+        },
+        {
+            "name": "Naloxone",
+            "AUI": "A23868645",
+            "rootSource": "LCH_NW",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/LCH_NW/sh85089574",
+            "relations": "NONE"
+        },
+        {
+            "name": "NALOXONE",
+            "AUI": "A8437957",
+            "rootSource": "VANDF",
+            "termType": "IN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/VANDF/4019852",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A8437957/relations"
+        },
+        {
+            "name": "17-allyl-3,14-dihydroxy-4,5\u03b1-epoxymorphinan-6-one",
+            "AUI": "A28678185",
+            "rootSource": "DRUGBANK",
+            "termType": "SY",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/DRUGBANK/DB01183",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A28678185/relations"
+        },
+        {
+            "name": "Naloxone-containing product",
+            "AUI": "A30255479",
+            "rootSource": "SNOMEDCT_US",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/89018006",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A30255479/relations"
+        },
+        {
+            "name": "Naloxone (substance)",
+            "AUI": "A3574566",
+            "rootSource": "SNOMEDCT_US",
+            "termType": "FN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/372890007",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A3574566/relations"
+        },
+        {
+            "name": "Naloxone",
+            "AUI": "A0090087",
+            "rootSource": "RCD",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RCD/x01GS",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0090087/relations"
+        },
+        {
+            "name": "NALOXONE",
+            "AUI": "A21151443",
+            "rootSource": "MTHSPL",
+            "termType": "SU",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MTHSPL/36B82AMQ7N",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443/relations"
+        },
+        {
+            "name": "Morphinan-6-one, 4,5-epoxy-3,14-dihydroxy-17-(2-propenyl)-, (5alpha)-",
+            "AUI": "A0567998",
+            "rootSource": "MSH",
+            "termType": "N1",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/D009270",
+            "relations": "NONE"
+        },
+        {
+            "name": "Product containing naloxone (medicinal product)",
+            "AUI": "A28433473",
+            "rootSource": "SNOMEDCT_US",
+            "termType": "FN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/89018006",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A28433473/relations"
+        },
+        {
+            "name": "naloxone",
+            "AUI": "A0484453",
+            "rootSource": "CSP",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/CSP/0092-8381",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0484453/relations"
+        },
+        {
+            "name": "naloxone",
+            "AUI": "A22723924",
+            "rootSource": "ATC",
+            "termType": "IN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/ATC/V03AB15",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A22723924/relations"
+        },
+        {
+            "name": "Naloxone",
+            "AUI": "A7560677",
+            "rootSource": "PSY",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/PSY/32944",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A7560677/relations"
+        },
+        {
+            "name": "(-)-naloxone",
+            "AUI": "A28678846",
+            "rootSource": "DRUGBANK",
+            "termType": "SY",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/DRUGBANK/DB01183",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A28678846/relations"
+        },
+        {
+            "name": "naloxone",
+            "AUI": "A24112605",
+            "rootSource": "MTHSPL",
+            "termType": "SU",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MTHSPL/36B82AMQ7N",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24112605/relations"
+        },
+        {
+            "name": "Naloxone",
+            "AUI": "A0090082",
+            "rootSource": "LCH",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/LCH/U003114",
+            "relations": "NONE"
+        },
+        {
+            "name": "Naloxone",
+            "AUI": "A0090089",
+            "rootSource": "SNMI",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNMI/C-60D10",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0090089/relations"
+        },
+        {
+            "name": "naloxone",
+            "AUI": "A18538149",
+            "rootSource": "MMSL",
+            "termType": "IN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MMSL/27364",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18538149/relations"
+        },
+        {
+            "name": "Naloxone",
+            "AUI": "A18168236",
+            "rootSource": "LNC",
+            "termType": "LPN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/LNC/LP28525-1",
+            "relations": "NONE"
+        }
+    ],
+    "definitions": [
+        {
+            "rootSource": "MSHPOR",
+            "definition": "Antagonista espec\u00edfico de \u00f3pio sem atividade agonista. \u00c9 um antagonista competitivo dos receptores opioides mu, delta e kappa."
+        },
+        {
+            "rootSource": "CSP",
+            "definition": "specific opiate antagonist with no agonist activity, a competitive antagonist at mu, delta, and kappa opioid receptors."
+        },
+        {
+            "rootSource": "MSH",
+            "definition": "A specific opiate antagonist that has no agonist activity. It is a competitive antagonist at mu, delta, and kappa opioid receptors."
+        },
+        {
+            "rootSource": "NCI",
+            "definition": "A thebaine derivate with competitive opioid antagonistic properties. Naloxone reverses the effects of opioid analgesics by binding to the opioid receptors in the CNS, and inhibiting the typical actions of opioid analgesics, including analgesia, euphoria, sedation, respiratory depression, miosis, bradycardia, and physical dependence. Naloxone binds to mu-opioid receptors with a high affinity, and a lesser degree to kappa- and gamma-opioid receptors in the CNS."
+        },
+        {
+            "rootSource": "MSHSPA",
+            "definition": "Un antagonista espec\u00edfico del opio que no tiene actividad agonista. Es un antagonista competitivo en los receptores opioides mu, delta y kappa."
+        },
+        {
+            "rootSource": "MSHSWE",
+            "definition": "Ett antagonistiskt opiat utan n\u00e5gon agonistverkan. Det \u00e4r en kompetitiv antagonist p\u00e5 mu-, delta- och kappa-opioidreceptorer."
+        }
+    ]
 }

@@ -8,7 +8,8 @@ def basicConceptWriter(results):
             "name": result["name"],
             "ui": result["ui"],
             "rootSource": result["rootSource"],
-            "uri": result["uri"]
+            "ConceptUri": result["uri"],
+            "uriOfConceptResolved": False
         } 
 
         writeDirectory = "concepts"

@@ -2,5 +2,6 @@
     "name": "naloxone / oxycodone",
     "ui": "C3848704",
     "rootSource": "RXNORM",
-    "uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C3848704"
+    "ConceptUri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C3848704",
+    "uriOfConceptResolved": false
 }
