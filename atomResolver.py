@@ -1,6 +1,7 @@
-import requests
+import requests, os
 
-def atomResolver(ApiKey, uri):
+def atomResolver(uri):
+    ApiKey = os.getenv("UMLS-ApiKey")
     payload = {"language":"ENG","apiKey":ApiKey}
     r = requests.get(uri, params=payload)
     # print(r.url)

@@ -237,5 +237,257 @@
             "rootSource": "MSHSWE",
             "definition": "Ett antagonistiskt opiat utan n\u00e5gon agonistverkan. Det \u00e4r en kompetitiv antagonist p\u00e5 mu-, delta- och kappa-opioidreceptorer."
         }
+    ],
+    "relations": [
+        {
+            "enitity1": "naloxone",
+            "enitity2": "naloxone / tilidine",
+            "relation": "part_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/7242",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/1007909",
+            "RUI": "R119294259",
+            "rootSource": "RXNORM"
+        },
+        {
+            "enitity1": "naloxone",
+            "enitity2": "buprenorphine / naloxone Sublingual Product",
+            "relation": "ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/7242",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/1294831",
+            "RUI": "R133686491",
+            "rootSource": "RXNORM"
+        },
+        {
+            "enitity1": "Naloxone",
+            "enitity2": "oxycodone naloxone combination",
+            "relation": "mapped_from",
+            "relDescription": "RB",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/D009270",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/C557247",
+            "RUI": "R148170503",
+            "rootSource": "MSH"
+        },
+        {
+            "enitity1": "NALOXONE",
+            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 0.5 mg SUBLINGUAL FILM",
+            "relation": "active_moiety_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31646018",
+            "RUI": "R194251427",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "enitity1": "naloxone",
+            "enitity2": "Buprenorphine-Naloxone, 2 mg-0.5 mg sublingual film",
+            "relation": "ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18538149",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A30299456",
+            "RUI": "R183144482",
+            "rootSource": "MMSL"
+        },
+        {
+            "enitity1": "Naloxone",
+            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / Naloxone 0.5 mg SUBLINGUAL FILM, SOLUBLE",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24111920",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A29373441",
+            "RUI": "R178777941",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "enitity1": "naloxone",
+            "enitity2": "buprenorphine hydrochloride 2 mg / naloxone hydrochloride 0.5 mg SUBLINGUAL FILM, SOLUBLE [Suboxone]",
+            "relation": "active_moiety_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24112605",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18500924",
+            "RUI": "R150946169",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "enitity1": "naloxone",
+            "enitity2": "buprenorphine / naloxone Sublingual Film",
+            "relation": "ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/7242",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/2269593",
+            "RUI": "R192998358",
+            "rootSource": "RXNORM"
+        },
+        {
+            "enitity1": "NALOXONE",
+            "enitity2": "BUPRENORPHINE 2MG/NALOXONE 0.5MG FILM,SUBLINGUAL",
+            "relation": "ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A8437957",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18725816",
+            "RUI": "R122673151",
+            "rootSource": "VANDF"
+        },
+        {
+            "enitity1": "Naloxone",
+            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / Naloxone 0.5 mg BUCCAL FILM, SOLUBLE",
+            "relation": "active_moiety_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24111920",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A29373440",
+            "RUI": "R178770186",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "enitity1": "Naloxone",
+            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / Naloxone 0.5 mg SUBLINGUAL FILM, SOLUBLE",
+            "relation": "active_moiety_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24111920",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A29373441",
+            "RUI": "R178762665",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "enitity1": "naloxone",
+            "enitity2": "buprenorphine-naloxone 2 mg-0.5 mg sublingual film",
+            "relation": "ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18538149",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18538478",
+            "RUI": "R121567428",
+            "rootSource": "MMSL"
+        },
+        {
+            "enitity1": "NALOXONE",
+            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 0.5 mg SUBLINGUAL FILM [Buprenorphine and Naloxone Sublingual Film]",
+            "relation": "active_moiety_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A30272023",
+            "RUI": "R182805421",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "enitity1": "NALOXONE",
+            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 0.5 mg BUCCAL FILM [Buprenorphine and Naloxone Sublingual Film]",
+            "relation": "active_moiety_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A30273144",
+            "RUI": "R182798676",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "enitity1": "NALOXONE",
+            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 0.5 mg BUCCAL FILM",
+            "relation": "active_moiety_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31646017",
+            "RUI": "R194445156",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "enitity1": "naloxone",
+            "enitity2": "Suboxone, 2 mg-0.5 mg sublingual film",
+            "relation": "ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18538149",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18534221",
+            "RUI": "R121567183",
+            "rootSource": "MMSL"
+        },
+        {
+            "enitity1": "Naloxone",
+            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / Naloxone 0.5 mg BUCCAL FILM, SOLUBLE",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24111920",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A29373440",
+            "RUI": "R178770185",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "enitity1": "naloxone",
+            "enitity2": "buprenorphine hydrochloride 2 mg / naloxone hydrochloride 0.5 mg BUCCAL FILM, SOLUBLE [Suboxone]",
+            "relation": "active_moiety_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24112605",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A26455088",
+            "RUI": "R161429906",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "enitity1": "NALOXONE",
+            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / Naloxone 2 mg BUCCAL FILM, SOLUBLE",
+            "relation": "active_moiety_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A29372881",
+            "RUI": "R178777950",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "enitity1": "NALOXONE",
+            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 2 mg SUBLINGUAL FILM",
+            "relation": "active_moiety_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A36198937",
+            "RUI": "R220432050",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "enitity1": "NALOXONE",
+            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / NALOXONE HYDROCHLORIDE 2 mg SUBLINGUAL FILM, SOLUBLE [Suboxone]",
+            "relation": "active_moiety_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A29372333",
+            "RUI": "R178776089",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "enitity1": "NALOXONE",
+            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / Naloxone 2 mg SUBLINGUAL FILM, SOLUBLE",
+            "relation": "active_moiety_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A29372882",
+            "RUI": "R178800946",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "enitity1": "NALOXONE",
+            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / NALOXONE HYDROCHLORIDE 2 mg BUCCAL FILM [Buprenorphine and Naloxone]",
+            "relation": "active_moiety_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A35792858",
+            "RUI": "R218311046",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "enitity1": "NALOXONE",
+            "enitity2": "BUPRENORPHINE 8MG/NALOXONE 2MG FILM,SUBLINGUAL",
+            "relation": "ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A8437957",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18718871",
+            "RUI": "R122673123",
+            "rootSource": "VANDF"
+        },
+        {
+            "enitity1": "NALOXONE",
+            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 2 mg SUBLINGUAL FILM",
+            "relation": "active_moiety_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A32713410",
+            "RUI": "R203979084",
+            "rootSource": "MTHSPL"
+        }
     ]
 }

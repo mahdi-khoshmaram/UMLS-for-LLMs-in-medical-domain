@@ -2,15 +2,15 @@ from termResolver import *
 from conceptUriResolver import *
 from atomResolver import *
 from definitionResolver import *
+from relationResolver import *
 
 def main(term):
 
-    ApiKey = input("Enter UMLS APIKEY: ")
-    resultsList = termResolver(ApiKey, term)
+    resultsList = termResolver(term)
     
     for result in resultsList:
         uri = result["uri"]
-        resolvedConceptUri = conceptUriResolver(ApiKey, uri)
+        resolvedConceptUri = conceptUriResolver(uri)
 
         # Reading the concept basic information from ./concepts dir
         writeDirectory = "concepts"
@@ -27,11 +27,14 @@ def main(term):
         # Semantic
         concept["semanticTypes"] = resolvedConceptUri["result"]["semanticTypes"] 
         # atoms
-        atoms = atomResolver(ApiKey, resolvedConceptUri["result"]["atoms"])
+        atoms = atomResolver(resolvedConceptUri["result"]["atoms"])
         concept["atoms"] = atoms 
         # definition
-        definitions = definitionResolver(ApiKey, resolvedConceptUri["result"]["definitions"])
+        definitions = definitionResolver(resolvedConceptUri["result"]["definitions"])
         concept["definitions"] = definitions
+        # Relations
+        relations = relationResolver(resolvedConceptUri["result"]["relations"])
+        concept["relations"] = relations
 
 
         with open(path, 'w') as jsonFile:

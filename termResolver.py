@@ -1,8 +1,8 @@
-import requests
+import requests, os
 from basicConceptWriter import *
 
-def termResolver(ApiKey, term):
-    
+def termResolver(term):
+    ApiKey = os.getenv("UMLS-ApiKey")
     # build a directoty to save the searched terms in a json format 
     writeDirectory = "savedTerms"
     fileName = "terms.json"

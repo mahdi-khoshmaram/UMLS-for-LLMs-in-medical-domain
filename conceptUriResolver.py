@@ -1,6 +1,7 @@
-import requests
+import requests, os
 
-def conceptUriResolver(ApiKey, uri):
+def conceptUriResolver(uri):
+    ApiKey = os.getenv("UMLS-ApiKey")
     payload = {"apiKey":ApiKey}
     r = requests.get(uri, params=payload)
     response = r.json()    
