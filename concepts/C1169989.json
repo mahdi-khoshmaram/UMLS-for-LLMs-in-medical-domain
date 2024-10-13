@@ -1,6 +1,6 @@
 {
     "name": "buprenorphine / naloxone",
-    "ui": "C1169989",
+    "CUI": "C1169989",
     "rootSource": "RXNORM",
     "ConceptUri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C1169989",
     "uriOfConceptResolved": false

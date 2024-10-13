@@ -17,6 +17,7 @@ def atomResolver(uri):
         atomDict["termType"] = atom["termType"] 
         atomDict["code"] = atom["code"] 
         atomDict["relations"] = atom["relations"] 
+        atomDict["defaultPreferredAtom"] = False
         atoms.append(atomDict)
     return atoms
 

@@ -2,25 +2,20 @@ import json
 import os
 
 # Input: return of term2cui.py 
-def basicConceptWriter(results):
-    for result in results:
+def basicConceptWriter(resultResults):
+    for result in resultResults:
         concept = {
             "name": result["name"],
-            "ui": result["ui"],
+            "CUI": result["ui"],
             "rootSource": result["rootSource"],
             "ConceptUri": result["uri"],
-            "uriOfConceptResolved": False
-        } 
+            "uriOfConceptResolved": False} 
 
         writeDirectory = "concepts"
-        fileName = f"{concept['ui']}.json"
-        path = os.path.join(writeDirectory, fileName)
+        fileName = f"{concept['CUI']}.json"
+        conceptsPath = os.path.join(writeDirectory, fileName)
         os.makedirs(writeDirectory, exist_ok=True)
 
-        if os.path.exists(path):
-            print(f"The file [{fileName}] exists in [{path}]!")
-
-        if not os.path.exists(path):
-            with open(path, 'w') as jsonFile:
+        if not os.path.exists(conceptsPath):
+            with open(conceptsPath, 'w') as jsonFile:
                 json.dump(concept, jsonFile, indent=4)
-                print(f"{fileName} has been written.")

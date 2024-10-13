@@ -1,6 +1,6 @@
 {
     "name": "naloxone",
-    "ui": "C0027358",
+    "CUI": "C0027358",
     "rootSource": "MTH",
     "ConceptUri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C0027358",
     "uriOfConceptResolved": true,
@@ -17,7 +17,8 @@
             "rootSource": "AOD",
             "termType": "DE",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/AOD/0000020562",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0484452/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0484452/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "naloxone",
@@ -25,7 +26,8 @@
             "rootSource": "MMSL",
             "termType": "GN",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MMSL/d00311",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0484454/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0484454/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "naloxone",
@@ -33,7 +35,8 @@
             "rootSource": "MTH",
             "termType": "PN",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MTH/NOCODE",
-            "relations": "NONE"
+            "relations": "NONE",
+            "defaultPreferredAtom": true
         },
         {
             "name": "1-N-Allyl-14-hydroxynordihydromorphinone",
@@ -41,7 +44,8 @@
             "rootSource": "DRUGBANK",
             "termType": "SY",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/DRUGBANK/DB01183",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A27063516/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A27063516/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "Nalossone",
@@ -49,7 +53,8 @@
             "rootSource": "DRUGBANK",
             "termType": "FSY",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/DRUGBANK/DB01183",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A30137051/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A30137051/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "naloxone",
@@ -57,7 +62,8 @@
             "rootSource": "RXNORM",
             "termType": "IN",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/7242",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31677864/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31677864/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "Naloxone",
@@ -65,7 +71,8 @@
             "rootSource": "LNC",
             "termType": "CN",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/LNC/MTHU013159",
-            "relations": "NONE"
+            "relations": "NONE",
+            "defaultPreferredAtom": false
         },
         {
             "name": "Naloxone",
@@ -73,7 +80,8 @@
             "rootSource": "LCH_NW",
             "termType": "PT",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/LCH_NW/sh85089574",
-            "relations": "NONE"
+            "relations": "NONE",
+            "defaultPreferredAtom": false
         },
         {
             "name": "NALOXONE",
@@ -81,7 +89,8 @@
             "rootSource": "VANDF",
             "termType": "IN",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/VANDF/4019852",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A8437957/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A8437957/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "17-allyl-3,14-dihydroxy-4,5\u03b1-epoxymorphinan-6-one",
@@ -89,7 +98,8 @@
             "rootSource": "DRUGBANK",
             "termType": "SY",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/DRUGBANK/DB01183",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A28678185/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A28678185/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "Naloxone-containing product",
@@ -97,7 +107,8 @@
             "rootSource": "SNOMEDCT_US",
             "termType": "PT",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/89018006",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A30255479/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A30255479/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "Naloxone (substance)",
@@ -105,7 +116,8 @@
             "rootSource": "SNOMEDCT_US",
             "termType": "FN",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/372890007",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A3574566/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A3574566/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "Naloxone",
@@ -113,7 +125,8 @@
             "rootSource": "RCD",
             "termType": "PT",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RCD/x01GS",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0090087/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0090087/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "NALOXONE",
@@ -121,7 +134,8 @@
             "rootSource": "MTHSPL",
             "termType": "SU",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MTHSPL/36B82AMQ7N",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "Morphinan-6-one, 4,5-epoxy-3,14-dihydroxy-17-(2-propenyl)-, (5alpha)-",
@@ -129,7 +143,8 @@
             "rootSource": "MSH",
             "termType": "N1",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/D009270",
-            "relations": "NONE"
+            "relations": "NONE",
+            "defaultPreferredAtom": false
         },
         {
             "name": "Product containing naloxone (medicinal product)",
@@ -137,7 +152,8 @@
             "rootSource": "SNOMEDCT_US",
             "termType": "FN",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/89018006",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A28433473/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A28433473/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "naloxone",
@@ -145,7 +161,8 @@
             "rootSource": "CSP",
             "termType": "PT",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/CSP/0092-8381",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0484453/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0484453/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "naloxone",
@@ -153,7 +170,8 @@
             "rootSource": "ATC",
             "termType": "IN",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/ATC/V03AB15",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A22723924/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A22723924/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "Naloxone",
@@ -161,7 +179,8 @@
             "rootSource": "PSY",
             "termType": "PT",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/PSY/32944",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A7560677/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A7560677/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "(-)-naloxone",
@@ -169,7 +188,8 @@
             "rootSource": "DRUGBANK",
             "termType": "SY",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/DRUGBANK/DB01183",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A28678846/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A28678846/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "naloxone",
@@ -177,7 +197,8 @@
             "rootSource": "MTHSPL",
             "termType": "SU",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MTHSPL/36B82AMQ7N",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24112605/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24112605/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "Naloxone",
@@ -185,7 +206,8 @@
             "rootSource": "LCH",
             "termType": "PT",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/LCH/U003114",
-            "relations": "NONE"
+            "relations": "NONE",
+            "defaultPreferredAtom": false
         },
         {
             "name": "Naloxone",
@@ -193,7 +215,8 @@
             "rootSource": "SNMI",
             "termType": "PT",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNMI/C-60D10",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0090089/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0090089/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "naloxone",
@@ -201,7 +224,8 @@
             "rootSource": "MMSL",
             "termType": "IN",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MMSL/27364",
-            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18538149/relations"
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18538149/relations",
+            "defaultPreferredAtom": false
         },
         {
             "name": "Naloxone",
@@ -209,7 +233,8 @@
             "rootSource": "LNC",
             "termType": "LPN",
             "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/LNC/LP28525-1",
-            "relations": "NONE"
+            "relations": "NONE",
+            "defaultPreferredAtom": false
         }
     ],
     "definitions": [
@@ -240,8 +265,8 @@
     ],
     "relations": [
         {
-            "enitity1": "naloxone",
-            "enitity2": "naloxone / tilidine",
+            "entity1": "naloxone",
+            "entity2": "naloxone / tilidine",
             "relation": "part_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/7242",
@@ -250,8 +275,8 @@
             "rootSource": "RXNORM"
         },
         {
-            "enitity1": "naloxone",
-            "enitity2": "buprenorphine / naloxone Sublingual Product",
+            "entity1": "naloxone",
+            "entity2": "buprenorphine / naloxone Sublingual Product",
             "relation": "ingredient_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/7242",
@@ -260,8 +285,8 @@
             "rootSource": "RXNORM"
         },
         {
-            "enitity1": "Naloxone",
-            "enitity2": "oxycodone naloxone combination",
+            "entity1": "Naloxone",
+            "entity2": "oxycodone naloxone combination",
             "relation": "mapped_from",
             "relDescription": "RB",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/D009270",
@@ -270,8 +295,8 @@
             "rootSource": "MSH"
         },
         {
-            "enitity1": "NALOXONE",
-            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 0.5 mg SUBLINGUAL FILM",
+            "entity1": "NALOXONE",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 0.5 mg SUBLINGUAL FILM",
             "relation": "active_moiety_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
@@ -280,8 +305,8 @@
             "rootSource": "MTHSPL"
         },
         {
-            "enitity1": "naloxone",
-            "enitity2": "Buprenorphine-Naloxone, 2 mg-0.5 mg sublingual film",
+            "entity1": "naloxone",
+            "entity2": "Buprenorphine-Naloxone, 2 mg-0.5 mg sublingual film",
             "relation": "ingredient_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18538149",
@@ -290,8 +315,8 @@
             "rootSource": "MMSL"
         },
         {
-            "enitity1": "Naloxone",
-            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / Naloxone 0.5 mg SUBLINGUAL FILM, SOLUBLE",
+            "entity1": "Naloxone",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / Naloxone 0.5 mg SUBLINGUAL FILM, SOLUBLE",
             "relation": "active_ingredient_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24111920",
@@ -300,8 +325,8 @@
             "rootSource": "MTHSPL"
         },
         {
-            "enitity1": "naloxone",
-            "enitity2": "buprenorphine hydrochloride 2 mg / naloxone hydrochloride 0.5 mg SUBLINGUAL FILM, SOLUBLE [Suboxone]",
+            "entity1": "naloxone",
+            "entity2": "buprenorphine hydrochloride 2 mg / naloxone hydrochloride 0.5 mg SUBLINGUAL FILM, SOLUBLE [Suboxone]",
             "relation": "active_moiety_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24112605",
@@ -310,8 +335,8 @@
             "rootSource": "MTHSPL"
         },
         {
-            "enitity1": "naloxone",
-            "enitity2": "buprenorphine / naloxone Sublingual Film",
+            "entity1": "naloxone",
+            "entity2": "buprenorphine / naloxone Sublingual Film",
             "relation": "ingredient_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/7242",
@@ -320,8 +345,8 @@
             "rootSource": "RXNORM"
         },
         {
-            "enitity1": "NALOXONE",
-            "enitity2": "BUPRENORPHINE 2MG/NALOXONE 0.5MG FILM,SUBLINGUAL",
+            "entity1": "NALOXONE",
+            "entity2": "BUPRENORPHINE 2MG/NALOXONE 0.5MG FILM,SUBLINGUAL",
             "relation": "ingredient_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A8437957",
@@ -330,8 +355,8 @@
             "rootSource": "VANDF"
         },
         {
-            "enitity1": "Naloxone",
-            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / Naloxone 0.5 mg BUCCAL FILM, SOLUBLE",
+            "entity1": "Naloxone",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / Naloxone 0.5 mg BUCCAL FILM, SOLUBLE",
             "relation": "active_moiety_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24111920",
@@ -340,8 +365,8 @@
             "rootSource": "MTHSPL"
         },
         {
-            "enitity1": "Naloxone",
-            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / Naloxone 0.5 mg SUBLINGUAL FILM, SOLUBLE",
+            "entity1": "Naloxone",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / Naloxone 0.5 mg SUBLINGUAL FILM, SOLUBLE",
             "relation": "active_moiety_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24111920",
@@ -350,8 +375,8 @@
             "rootSource": "MTHSPL"
         },
         {
-            "enitity1": "naloxone",
-            "enitity2": "buprenorphine-naloxone 2 mg-0.5 mg sublingual film",
+            "entity1": "naloxone",
+            "entity2": "buprenorphine-naloxone 2 mg-0.5 mg sublingual film",
             "relation": "ingredient_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18538149",
@@ -360,8 +385,8 @@
             "rootSource": "MMSL"
         },
         {
-            "enitity1": "NALOXONE",
-            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 0.5 mg SUBLINGUAL FILM [Buprenorphine and Naloxone Sublingual Film]",
+            "entity1": "NALOXONE",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 0.5 mg SUBLINGUAL FILM [Buprenorphine and Naloxone Sublingual Film]",
             "relation": "active_moiety_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
@@ -370,8 +395,8 @@
             "rootSource": "MTHSPL"
         },
         {
-            "enitity1": "NALOXONE",
-            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 0.5 mg BUCCAL FILM [Buprenorphine and Naloxone Sublingual Film]",
+            "entity1": "NALOXONE",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 0.5 mg BUCCAL FILM [Buprenorphine and Naloxone Sublingual Film]",
             "relation": "active_moiety_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
@@ -380,8 +405,8 @@
             "rootSource": "MTHSPL"
         },
         {
-            "enitity1": "NALOXONE",
-            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 0.5 mg BUCCAL FILM",
+            "entity1": "NALOXONE",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 0.5 mg BUCCAL FILM",
             "relation": "active_moiety_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
@@ -390,8 +415,8 @@
             "rootSource": "MTHSPL"
         },
         {
-            "enitity1": "naloxone",
-            "enitity2": "Suboxone, 2 mg-0.5 mg sublingual film",
+            "entity1": "naloxone",
+            "entity2": "Suboxone, 2 mg-0.5 mg sublingual film",
             "relation": "ingredient_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18538149",
@@ -400,8 +425,8 @@
             "rootSource": "MMSL"
         },
         {
-            "enitity1": "Naloxone",
-            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / Naloxone 0.5 mg BUCCAL FILM, SOLUBLE",
+            "entity1": "Naloxone",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 2 mg / Naloxone 0.5 mg BUCCAL FILM, SOLUBLE",
             "relation": "active_ingredient_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24111920",
@@ -410,8 +435,8 @@
             "rootSource": "MTHSPL"
         },
         {
-            "enitity1": "naloxone",
-            "enitity2": "buprenorphine hydrochloride 2 mg / naloxone hydrochloride 0.5 mg BUCCAL FILM, SOLUBLE [Suboxone]",
+            "entity1": "naloxone",
+            "entity2": "buprenorphine hydrochloride 2 mg / naloxone hydrochloride 0.5 mg BUCCAL FILM, SOLUBLE [Suboxone]",
             "relation": "active_moiety_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24112605",
@@ -420,8 +445,8 @@
             "rootSource": "MTHSPL"
         },
         {
-            "enitity1": "NALOXONE",
-            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / Naloxone 2 mg BUCCAL FILM, SOLUBLE",
+            "entity1": "NALOXONE",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / Naloxone 2 mg BUCCAL FILM, SOLUBLE",
             "relation": "active_moiety_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
@@ -430,8 +455,8 @@
             "rootSource": "MTHSPL"
         },
         {
-            "enitity1": "NALOXONE",
-            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 2 mg SUBLINGUAL FILM",
+            "entity1": "NALOXONE",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 2 mg SUBLINGUAL FILM",
             "relation": "active_moiety_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
@@ -440,8 +465,8 @@
             "rootSource": "MTHSPL"
         },
         {
-            "enitity1": "NALOXONE",
-            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / NALOXONE HYDROCHLORIDE 2 mg SUBLINGUAL FILM, SOLUBLE [Suboxone]",
+            "entity1": "NALOXONE",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / NALOXONE HYDROCHLORIDE 2 mg SUBLINGUAL FILM, SOLUBLE [Suboxone]",
             "relation": "active_moiety_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
@@ -450,8 +475,8 @@
             "rootSource": "MTHSPL"
         },
         {
-            "enitity1": "NALOXONE",
-            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / Naloxone 2 mg SUBLINGUAL FILM, SOLUBLE",
+            "entity1": "NALOXONE",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / Naloxone 2 mg SUBLINGUAL FILM, SOLUBLE",
             "relation": "active_moiety_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
@@ -460,8 +485,8 @@
             "rootSource": "MTHSPL"
         },
         {
-            "enitity1": "NALOXONE",
-            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / NALOXONE HYDROCHLORIDE 2 mg BUCCAL FILM [Buprenorphine and Naloxone]",
+            "entity1": "NALOXONE",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / NALOXONE HYDROCHLORIDE 2 mg BUCCAL FILM [Buprenorphine and Naloxone]",
             "relation": "active_moiety_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",
@@ -470,8 +495,8 @@
             "rootSource": "MTHSPL"
         },
         {
-            "enitity1": "NALOXONE",
-            "enitity2": "BUPRENORPHINE 8MG/NALOXONE 2MG FILM,SUBLINGUAL",
+            "entity1": "NALOXONE",
+            "entity2": "BUPRENORPHINE 8MG/NALOXONE 2MG FILM,SUBLINGUAL",
             "relation": "ingredient_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A8437957",
@@ -480,8 +505,8 @@
             "rootSource": "VANDF"
         },
         {
-            "enitity1": "NALOXONE",
-            "enitity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 2 mg SUBLINGUAL FILM",
+            "entity1": "NALOXONE",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / NALOXONE HYDROCHLORIDE DIHYDRATE 2 mg SUBLINGUAL FILM",
             "relation": "active_moiety_of",
             "relDescription": "RO",
             "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A21151443",

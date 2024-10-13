@@ -11,9 +11,9 @@ def relationResolver(uri):
     rels = response["result"]
     relList = list()
     for rel in rels:
-        relDict = dict()
-        relDict["enitity1"] = rel["relatedFromIdName"]
-        relDict["enitity2"] = rel["relatedIdName"]
+        relDict = {}
+        relDict["entity1"] = rel["relatedFromIdName"]
+        relDict["entity2"] = rel["relatedIdName"]
         relDict["relation"] = rel["additionalRelationLabel"]
         relDict["relDescription"] = rel["relationLabel"]
         relDict["entity1Uri"] = rel["relatedFromId"]
@@ -22,6 +22,4 @@ def relationResolver(uri):
         relDict["rootSource"] = rel["rootSource"]
         relList.append(relDict)
     return relList
-
-
 
