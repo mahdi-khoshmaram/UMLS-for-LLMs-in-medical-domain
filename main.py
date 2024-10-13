@@ -4,8 +4,8 @@ from atomResolver import *
 from definitionResolver import *
 
 def main(term):
-    ApiKey = "265c7e4c-c500-4c9b-8333-3e42832bea1b"
-    # ApiKey = input("Enter UMLS APIKEY: ")
+
+    ApiKey = input("Enter UMLS APIKEY: ")
     resultsList = termResolver(ApiKey, term)
     
     for result in resultsList:
