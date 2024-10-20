@@ -3,5 +3,185 @@
     "CUI": "C1169989",
     "rootSource": "RXNORM",
     "ConceptUri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C1169989",
-    "uriOfConceptResolved": false
+    "uriOfConceptResolved": true,
+    "semanticTypes": [
+        {
+            "name": "Pharmacologic Substance",
+            "uri": "https://uts-ws.nlm.nih.gov/rest/semantic-network/2024AA/TUI/T121"
+        }
+    ],
+    "atoms": [
+        {
+            "name": "buprenorphine / naloxone",
+            "AUI": "A31743118",
+            "rootSource": "RXNORM",
+            "termType": "MIN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/352364",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31743118/relations",
+            "defaultPreferredAtom": true
+        },
+        {
+            "name": "Buprenorphine-Naloxone",
+            "AUI": "A26605978",
+            "rootSource": "MSH",
+            "termType": "ET",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/D000069479",
+            "relations": "NONE",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Buprenorphine-Naloxone Drug Combination",
+            "AUI": "A26659851",
+            "rootSource": "MSH",
+            "termType": "ET",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/D000069479",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A26659851/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Product containing buprenorphine and naloxone (medicinal product)",
+            "AUI": "A28903512",
+            "rootSource": "SNOMEDCT_US",
+            "termType": "FN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/425741009",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A28903512/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Naloxone, Buprenorphine",
+            "AUI": "A24828288",
+            "rootSource": "MSH",
+            "termType": "PM",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/D000069479",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24828288/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "buprenorphine-naloxone",
+            "AUI": "A2606471",
+            "rootSource": "MMSL",
+            "termType": "GN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MMSL/d04819",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A2606471/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Buprenorphine-Naloxone",
+            "AUI": "A30301540",
+            "rootSource": "MMSL",
+            "termType": "BN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MMSL/79667",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A30301540/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Buprenorphine, Naloxone Drug Combination",
+            "AUI": "A24833468",
+            "rootSource": "MSH",
+            "termType": "MH",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/D000069479",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24833468/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Buprenorphine Naloxone Drug Combination",
+            "AUI": "A26595104",
+            "rootSource": "MSH",
+            "termType": "ET",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/D000069479",
+            "relations": "NONE",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Buprenorphine- and naloxone-containing product",
+            "AUI": "A30245081",
+            "rootSource": "SNOMEDCT_US",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/425741009",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A30245081/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "BUPRENORPHINE/NALOXONE",
+            "AUI": "A12099487",
+            "rootSource": "VANDF",
+            "termType": "IN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/VANDF/4024297",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A12099487/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Combination, Buprenorphine-Naloxone Drug",
+            "AUI": "A24831710",
+            "rootSource": "MSH",
+            "termType": "PM",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/D000069479",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24831710/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Combination, Buprenorphine-Naloxone",
+            "AUI": "A24828290",
+            "rootSource": "MSH",
+            "termType": "PM",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/D000069479",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24828290/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Buprenorphine Naloxone",
+            "AUI": "A26627543",
+            "rootSource": "MSH",
+            "termType": "ET",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/D000069479",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A26627543/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Buprenorphine-Naloxone Combination",
+            "AUI": "A26619450",
+            "rootSource": "MSH",
+            "termType": "ET",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/D000069479",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A26619450/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Buprenorphine Naloxone Combination",
+            "AUI": "A24828289",
+            "rootSource": "MSH",
+            "termType": "PM",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/D000069479",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24828289/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Drug Combination, Buprenorphine-Naloxone",
+            "AUI": "A24826467",
+            "rootSource": "MSH",
+            "termType": "PM",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/D000069479",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A24826467/relations",
+            "defaultPreferredAtom": false
+        }
+    ],
+    "definitions": [
+        {
+            "rootSource": "MSHSPA",
+            "definition": "Preparaci\u00f3n farmac\u00e9utica que combina buprenorfina, un ANALG\u00c9SICO OPIOIDE con naloxona, un ANTAGONISTA NARC\u00d3TICO para reducir el potencial de DEPENDENCIA NARC\u00d3TICA en el tratamiento del dolor. Tambi\u00e9n se puede usar para la TERAPIA DE SUSTITUCI\u00d3N DE OPIOIDES."
+        },
+        {
+            "rootSource": "MSH",
+            "definition": "A pharmaceutical preparation that combines buprenorphine, an OPIOID ANALGESICS with naloxone, a NARCOTIC ANTAGONISTS to reduce the potential for NARCOTIC DEPENDENCE in the treatment of pain. It may also be used for OPIOID SUBSTITUTION THERAPY."
+        },
+        {
+            "rootSource": "MSHPOR",
+            "definition": "Prepara\u00e7\u00e3o farmac\u00eautica que combina buprenorfina, um OPI\u00d3IDE ANALG\u00c9SICO, com naloxona, um ANTAGONISTA DE ENTORPECENTES, para reduzir o potencial de desenvolver a DEPEND\u00caNCIA DE OPI\u00c1CEOS no tratamento da dor. Tamb\u00e9m pode ser usado no TRATAMENTO DE SUBSTITUI\u00c7\u00c3O DE OPI\u00c1CEOS."
+        },
+        {
+            "rootSource": "MSHSWE",
+            "definition": "Ett l\u00e4kemedel som kombinerar buprenorfin, en opioid sm\u00e4rtstillare med naloxan, en narkotikablockerare f\u00f6r att minska risken f\u00f6r narkotikaberoende vid sm\u00e4rtlindring. Den kan ocks\u00e5 anv\u00e4ndas vid opiatsubstitutionbehandling."
+        }
+    ],
+    "relations": "NONE"
 }

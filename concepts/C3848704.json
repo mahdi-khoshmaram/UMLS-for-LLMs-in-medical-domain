@@ -3,5 +3,69 @@
     "CUI": "C3848704",
     "rootSource": "RXNORM",
     "ConceptUri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C3848704",
-    "uriOfConceptResolved": false
+    "uriOfConceptResolved": true,
+    "semanticTypes": [
+        {
+            "name": "Pharmacologic Substance",
+            "uri": "https://uts-ws.nlm.nih.gov/rest/semantic-network/2024AA/TUI/T121"
+        }
+    ],
+    "atoms": [
+        {
+            "name": "oxycodone and naloxone",
+            "AUI": "A27757758",
+            "rootSource": "ATC",
+            "termType": "IN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/ATC/N02AA55",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A27757758/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "naloxone-oxycodone",
+            "AUI": "A27757340",
+            "rootSource": "MMSL",
+            "termType": "GN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MMSL/d07394",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A27757340/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "naloxone / oxyCODONE",
+            "AUI": "A31738219",
+            "rootSource": "RXNORM",
+            "termType": "TMSY",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/1545902",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31738219/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Product containing naloxone and oxycodone (medicinal product)",
+            "AUI": "A29510558",
+            "rootSource": "SNOMEDCT_US",
+            "termType": "FN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/715845001",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A29510558/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Naloxone- and oxycodone-containing product",
+            "AUI": "A30205760",
+            "rootSource": "SNOMEDCT_US",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/715845001",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A30205760/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "naloxone / oxycodone",
+            "AUI": "A31668573",
+            "rootSource": "RXNORM",
+            "termType": "MIN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/1545902",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31668573/relations",
+            "defaultPreferredAtom": true
+        }
+    ],
+    "definitions": "NONE",
+    "relations": "NONE"
 }

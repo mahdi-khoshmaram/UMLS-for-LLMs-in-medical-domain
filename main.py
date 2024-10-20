@@ -41,9 +41,15 @@ def main(term):
         if not definitionsURI == "NONE":
             definitions = definitionResolver(definitionsURI)
             concept["definitions"] = definitions
+        else: 
+             concept["definitions"] = "NONE"
         # Relations
-        relations = relationResolver(resolvedConceptUri["result"]["relations"])
-        concept["relations"] = relations
+        relationURI = resolvedConceptUri["result"]["relations"]
+        if not relationURI == "NONE":
+            relations = relationResolver(relationURI)
+            concept["relations"] = relations
+        else:
+             concept["relations"] = "NONE"
         # defaultPreferredAtom
         AUIofPreferred = AUIofDefaultPreferredAtom(resolvedConceptUri["result"]["defaultPreferredAtom"])
         for atom in concept["atoms"]:
