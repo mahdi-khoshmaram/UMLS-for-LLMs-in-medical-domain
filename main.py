@@ -4,18 +4,16 @@ from atomResolver import *
 from definitionResolver import *
 from relationResolver import *
 from AUIofDefaultPreferredAtom import *
+
+
 def main(term):
-
     termResolved = termResolver(term)
-    resultsList = termResolved["result"]["results"]
+    concepts = termResolved["result"]["results"]
+    
     i = 1
-    for result in resultsList:
-        print(i)
-
-        uri = result["uri"]
+    for Concept in concepts:
+        uri = Concept["uri"]
         resolvedConceptUri = conceptUriResolver(uri)
-
-
 
         # Reading the concept basic information from ./concepts dir
         writeDirectory = "concepts"
@@ -39,8 +37,10 @@ def main(term):
         atoms = atomResolver(resolvedConceptUri["result"]["atoms"])
         concept["atoms"] = atoms 
         # definition
-        definitions = definitionResolver(resolvedConceptUri["result"]["definitions"])
-        concept["definitions"] = definitions
+        definitionsURI = resolvedConceptUri["result"]["definitions"]
+        if not definitionsURI == "NONE":
+            definitions = definitionResolver(definitionsURI)
+            concept["definitions"] = definitions
         # Relations
         relations = relationResolver(resolvedConceptUri["result"]["relations"])
         concept["relations"] = relations

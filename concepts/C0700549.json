@@ -3,5 +3,504 @@
     "CUI": "C0700549",
     "rootSource": "MTH",
     "ConceptUri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C0700549",
-    "uriOfConceptResolved": false
+    "uriOfConceptResolved": true,
+    "semanticTypes": [
+        {
+            "name": "Organic Chemical",
+            "uri": "https://uts-ws.nlm.nih.gov/rest/semantic-network/2024AA/TUI/T109"
+        },
+        {
+            "name": "Pharmacologic Substance",
+            "uri": "https://uts-ws.nlm.nih.gov/rest/semantic-network/2024AA/TUI/T121"
+        }
+    ],
+    "atoms": [
+        {
+            "name": "naloxone hydrochloride",
+            "AUI": "A31518681",
+            "rootSource": "MTH",
+            "termType": "PN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MTH/NOCODE",
+            "relations": "NONE",
+            "defaultPreferredAtom": true
+        },
+        {
+            "name": "N-allylnoroxymorphone hydrochloride",
+            "AUI": "A3047343",
+            "rootSource": "SNOMEDCT_US",
+            "termType": "SY",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/21518006",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A3047343/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "naloxone HCl",
+            "AUI": "A19304605",
+            "rootSource": "NDDF",
+            "termType": "IN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/NDDF/001614",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A19304605/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "naloxone hydrochloride",
+            "AUI": "A11915787",
+            "rootSource": "PDQ",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/PDQ/CDR0000039509",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A11915787/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "naloxone hydrochloride",
+            "AUI": "A1540558",
+            "rootSource": "MMSL",
+            "termType": "IN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MMSL/5150",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A1540558/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "naloxone hydrochloride",
+            "AUI": "A18567495",
+            "rootSource": "CHV",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/CHV/0000044814",
+            "relations": "NONE",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "N-allylnoroxymorphone hydrochloride",
+            "AUI": "A0749318",
+            "rootSource": "SNMI",
+            "termType": "SY",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNMI/C-60D11",
+            "relations": "NONE",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "naloxone hydrochloride",
+            "AUI": "A14066998",
+            "rootSource": "MEDCIN",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MEDCIN/41063",
+            "relations": "NONE",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "naloxone hydrochloride",
+            "AUI": "A31757155",
+            "rootSource": "RXNORM",
+            "termType": "PIN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/203192",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31757155/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Naloxone Hydrochloride",
+            "AUI": "A29731175",
+            "rootSource": "USP",
+            "termType": "IN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/USP/m55510",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A29731175/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Naloxone Hydrochloride",
+            "AUI": "A29966904",
+            "rootSource": "GS",
+            "termType": "IN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/GS/2009",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A29966904/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Naloxone Hydrochloride",
+            "AUI": "A0569636",
+            "rootSource": "MMSL",
+            "termType": "BN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MMSL/2074",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0569636/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "NALOXONE HYDROCHLORIDE",
+            "AUI": "A8438531",
+            "rootSource": "VANDF",
+            "termType": "IN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/VANDF/4018057",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A8438531/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "naloxone hcl",
+            "AUI": "A18586041",
+            "rootSource": "CHV",
+            "termType": "SY",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/CHV/0000044814",
+            "relations": "NONE",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "naloxone hydrochloride",
+            "AUI": "A11559894",
+            "rootSource": "MTHSPL",
+            "termType": "SU",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MTHSPL/F850569PQR",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A11559894/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Hydrochloride, Naloxone",
+            "AUI": "A0558341",
+            "rootSource": "MSH",
+            "termType": "PM",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/D009270",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0558341/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Naloxone Hydrochloride",
+            "AUI": "A10765408",
+            "rootSource": "NCI",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/NCI/C678",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A10765408/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Naloxone Hydrochloride",
+            "AUI": "A11562314",
+            "rootSource": "MTHSPL",
+            "termType": "SU",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MTHSPL/F850569PQR",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A11562314/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Naloxone Hydrochloride",
+            "AUI": "A26679541",
+            "rootSource": "MSH",
+            "termType": "PEP",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MSH/D009270",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A26679541/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Naloxone hydrochloride",
+            "AUI": "A0750509",
+            "rootSource": "SNMI",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNMI/C-60D11",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0750509/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Naloxone hydrochloride",
+            "AUI": "A3047653",
+            "rootSource": "SNOMEDCT_US",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/21518006",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A3047653/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "naloxone hydrochloride (medication)",
+            "AUI": "A13878651",
+            "rootSource": "MEDCIN",
+            "termType": "FN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MEDCIN/41063",
+            "relations": "NONE",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "naloxone hydrochloride",
+            "AUI": "A1540557",
+            "rootSource": "AOD",
+            "termType": "NP",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/AOD/0000028982",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A1540557/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Naloxone Hydrochloride",
+            "AUI": "A8482166",
+            "rootSource": "USPMG",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/USPMG/MTHU001787",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A8482166/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "NALOXONE HYDROCHLORIDE",
+            "AUI": "A18086520",
+            "rootSource": "MTHSPL",
+            "termType": "SU",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MTHSPL/F850569PQR",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18086520/relations",
+            "defaultPreferredAtom": false
+        }
+    ],
+    "definitions": [
+        {
+            "rootSource": "PDQ",
+            "definition": "The hydrochloride salt of naloxone, a thebaine derivate with opioid antagonist activity. Naloxone binds to opioid receptors in the CNS in a competitive manner, reversing or inhibiting characteristic opioid effects, including analgesia, euphoria, sedation, respiratory depression, miosis, bradycardia, and physical dependence. This agent binds to mu-opioid receptors with a high affinity, and a lesser degree to kappa- and gamma-opioid receptors. Check for \"https://www.cancer.gov/about-cancer/treatment/clinical-trials/intervention/C678\" active clinical trials using this agent. (\"http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C678\" NCI Thesaurus)"
+        },
+        {
+            "rootSource": "NCI",
+            "definition": "The hydrochloride salt of naloxone, a thebaine derivate with opioid antagonist activity. Naloxone binds to opioid receptors in the CNS in a competitive manner, reversing or inhibiting characteristic opioid effects, including analgesia, euphoria, sedation, respiratory depression, miosis, bradycardia, and physical dependence. This agent binds to mu-opioid receptors with a high affinity, and a lesser degree to kappa- and gamma-opioid receptors."
+        }
+    ],
+    "relations": [
+        {
+            "entity1": "naloxone hydrochloride",
+            "entity2": "Naloxone Hydrochloride, 0.4 mg/mL injectable solution",
+            "relation": "ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A1540558",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A9443126",
+            "RUI": "R49898130",
+            "rootSource": "MMSL"
+        },
+        {
+            "entity1": "Naloxone Hydrochloride",
+            "entity2": "Naloxone Hydrochloride, 0.4 mg/mL injectable solution",
+            "relation": "ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0569636",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A9443126",
+            "RUI": "R49898129",
+            "rootSource": "MMSL"
+        },
+        {
+            "entity1": "naloxone hydrochloride",
+            "entity2": "buprenorphine hydrochloride 2 mg / naloxone hydrochloride 0.5 mg BUCCAL FILM, SOLUBLE [Suboxone]",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A11559894",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A26455088",
+            "RUI": "R161445812",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "entity1": "naloxone hydrochloride",
+            "entity2": "buprenorphine hydrochloride 2 mg / naloxone hydrochloride 0.5 mg SUBLINGUAL FILM, SOLUBLE [Suboxone]",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A11559894",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18500924",
+            "RUI": "R151862288",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "entity1": "NALOXONE HYDROCHLORIDE",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / NALOXONE HYDROCHLORIDE 2 mg SUBLINGUAL FILM, SOLUBLE [Suboxone]",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18086520",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A29372333",
+            "RUI": "R178806722",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "entity1": "NALOXONE HYDROCHLORIDE",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / NALOXONE HYDROCHLORIDE 2 mg BUCCAL FILM [Buprenorphine and Naloxone]",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18086520",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A35792858",
+            "RUI": "R218305317",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "entity1": "naloxone hydrochloride",
+            "entity2": "buprenorphine hydrochloride 8 mg / naloxone hydrochloride 2 mg BUCCAL FILM, SOLUBLE [Suboxone]",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A11559894",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A26458708",
+            "RUI": "R161454345",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "entity1": "NALOXONE HYDROCHLORIDE",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 8 mg / NALOXONE HYDROCHLORIDE 2 mg SUBLINGUAL FILM [Buprenorphine and Naloxone]",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18086520",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A35790993",
+            "RUI": "R218276413",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "entity1": "naloxone hydrochloride",
+            "entity2": "buprenorphine hydrochloride 8 mg / naloxone hydrochloride 2 mg SUBLINGUAL FILM, SOLUBLE [Suboxone]",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A11559894",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18502694",
+            "RUI": "R152558602",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "entity1": "Null",
+            "entity2": "Naloxone Hydrochloride Bulk powder",
+            "relation": "",
+            "relDescription": "RO",
+            "entity1Uri": "Null",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C3189649",
+            "RUI": "R177654628",
+            "rootSource": "MTH"
+        },
+        {
+            "entity1": "naloxone hydrochloride",
+            "entity2": "Opioid Antagonists",
+            "relation": "has_mechanism_of_action",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/203192",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MED-RT/N0000000154",
+            "RUI": "R176778243",
+            "rootSource": "MED-RT"
+        },
+        {
+            "entity1": "naloxone hydrochloride",
+            "entity2": "buprenorphine hydrochloride 4 mg / naloxone hydrochloride 1 mg SUBLINGUAL FILM, SOLUBLE [Suboxone]",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A11559894",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A20931650",
+            "RUI": "R150712458",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "entity1": "naloxone hydrochloride",
+            "entity2": "buprenorphine hydrochloride 4 mg / naloxone hydrochloride 1 mg BUCCAL FILM, SOLUBLE [Suboxone]",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A11559894",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A26458803",
+            "RUI": "R161445813",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "entity1": "naloxone hydrochloride",
+            "entity2": "buprenorphine hydrochloride 12 mg / naloxone hydrochloride 3 mg BUCCAL FILM, SOLUBLE [Suboxone]",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A11559894",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A26460579",
+            "RUI": "R161411081",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "entity1": "NALOXONE HYDROCHLORIDE",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 12 mg / NALOXONE HYDROCHLORIDE 3 mg BUCCAL FILM [Buprenorphine and Naloxone]",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18086520",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A35789940",
+            "RUI": "R218270613",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "entity1": "naloxone hydrochloride",
+            "entity2": "buprenorphine hydrochloride 12 mg / naloxone hydrochloride 3 mg SUBLINGUAL FILM, SOLUBLE [Suboxone]",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A11559894",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A20928176",
+            "RUI": "R150712457",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "entity1": "NALOXONE HYDROCHLORIDE",
+            "entity2": "BUPRENORPHINE HYDROCHLORIDE 12 mg / NALOXONE HYDROCHLORIDE 3 mg SUBLINGUAL FILM [Buprenorphine and Naloxone]",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18086520",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A35790256",
+            "RUI": "R218287872",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "entity1": "naloxone hydrochloride",
+            "entity2": "Central Nervous System Stimulation",
+            "relation": "has_physiologic_effect",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/203192",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MED-RT/N0000175729",
+            "RUI": "R176733812",
+            "rootSource": "MED-RT"
+        },
+        {
+            "entity1": "naloxone hydrochloride",
+            "entity2": "Increased Blood Pressure",
+            "relation": "has_physiologic_effect",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/203192",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MED-RT/N0000178478",
+            "RUI": "R176816078",
+            "rootSource": "MED-RT"
+        },
+        {
+            "entity1": "naloxone hydrochloride",
+            "entity2": "N [Preparations]",
+            "relation": "has_parent",
+            "relDescription": "CHD",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/203192",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MED-RT/N0000010596",
+            "RUI": "R176807675",
+            "rootSource": "MED-RT"
+        },
+        {
+            "entity1": "NALOXONE HYDROCHLORIDE",
+            "entity2": "NALOXONE HYDROCHLORIDE 1 mg in 1 mL PARENTERAL INJECTION [NALOXONE HYDROCHLORIDE]",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18086520",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A23400931",
+            "RUI": "R152076771",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "entity1": "NALOXONE HYDROCHLORIDE",
+            "entity2": "NALOXONE HYDROCHLORIDE 1 mg in 1 mL PARENTERAL INJECTION",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A18086520",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A29740599",
+            "RUI": "R180194542",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "entity1": "NALOXONE HYDROCHLORIDE",
+            "entity2": "NALOXONE HCL 1MG/ML INJ",
+            "relation": "ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A8438531",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A8447447",
+            "RUI": "R57832551",
+            "rootSource": "VANDF"
+        },
+        {
+            "entity1": "Naloxone Hydrochloride",
+            "entity2": "Naloxone Hydrochloride 1 mg in 1 mL PARENTERAL INJECTION",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A11562314",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A20283651",
+            "RUI": "R152523218",
+            "rootSource": "MTHSPL"
+        },
+        {
+            "entity1": "Naloxone Hydrochloride",
+            "entity2": "Naloxone Hydrochloride 1 mg in 1 mL PARENTERAL INJECTION",
+            "relation": "active_ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A11562314",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A27179301",
+            "RUI": "R167451540",
+            "rootSource": "MTHSPL"
+        }
+    ]
 }

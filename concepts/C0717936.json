@@ -3,5 +3,364 @@
     "CUI": "C0717936",
     "rootSource": "RXNORM",
     "ConceptUri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C0717936",
-    "uriOfConceptResolved": false
+    "uriOfConceptResolved": true,
+    "semanticTypes": [
+        {
+            "name": "Pharmacologic Substance",
+            "uri": "https://uts-ws.nlm.nih.gov/rest/semantic-network/2024AA/TUI/T121"
+        }
+    ],
+    "atoms": [
+        {
+            "name": "pentazocine + naloxone (medication)",
+            "AUI": "A13715429",
+            "rootSource": "MEDCIN",
+            "termType": "FN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MEDCIN/199036",
+            "relations": "NONE",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "naloxone-pentazocine",
+            "AUI": "A1543100",
+            "rootSource": "MMSL",
+            "termType": "GN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MMSL/d03676",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A1543100/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "NALOXONE/PENTAZOCINE",
+            "AUI": "A12100361",
+            "rootSource": "VANDF",
+            "termType": "IN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/VANDF/4022241",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A12100361/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "synthetic narcotics pentazocine + naloxone",
+            "AUI": "A14091907",
+            "rootSource": "MEDCIN",
+            "termType": "SY",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MEDCIN/199036",
+            "relations": "NONE",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "naloxone / pentazocine",
+            "AUI": "A31636045",
+            "rootSource": "RXNORM",
+            "termType": "MIN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/214721",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31636045/relations",
+            "defaultPreferredAtom": true
+        },
+        {
+            "name": "pentazocine naloxone",
+            "AUI": "A18641923",
+            "rootSource": "CHV",
+            "termType": "SY",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/CHV/0000045202",
+            "relations": "NONE",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Product containing naloxone and pentazocine (medicinal product)",
+            "AUI": "A29548430",
+            "rootSource": "SNOMEDCT_US",
+            "termType": "FN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/768381009",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A29548430/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "naloxone-pentazocine",
+            "AUI": "A18567582",
+            "rootSource": "CHV",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/CHV/0000045202",
+            "relations": "NONE",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "pentazocine + naloxone",
+            "AUI": "A13925973",
+            "rootSource": "MEDCIN",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MEDCIN/199036",
+            "relations": "NONE",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "pentazocine and naloxone",
+            "AUI": "A36184599",
+            "rootSource": "ATC",
+            "termType": "IN",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/ATC/N02AD51",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A36184599/relations",
+            "defaultPreferredAtom": false
+        },
+        {
+            "name": "Naloxone- and pentazocine-containing product",
+            "AUI": "A30205761",
+            "rootSource": "SNOMEDCT_US",
+            "termType": "PT",
+            "code": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/768381009",
+            "relations": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A30205761/relations",
+            "defaultPreferredAtom": false
+        }
+    ],
+    "relations": [
+        {
+            "entity1": "producto con naloxona y pentazocina",
+            "entity2": "producto con naloxona y pentazocina para administraci\u00f3n oral",
+            "relation": "inverse_isa",
+            "relDescription": "PAR",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SCTSPA/768381009",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SCTSPA/768382002",
+            "RUI": "R181862963",
+            "rootSource": "SCTSPA"
+        },
+        {
+            "entity1": "Naloxone- and pentazocine-containing product",
+            "entity2": "Naloxone- and pentazocine-containing product in oral dose form",
+            "relation": "inverse_isa",
+            "relDescription": "PAR",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/768381009",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/768382002",
+            "RUI": "R179256427",
+            "rootSource": "SNOMEDCT_US"
+        },
+        {
+            "entity1": "pentazocine + naloxone",
+            "entity2": "pentazocine combinations",
+            "relation": "isa",
+            "relDescription": "CHD",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MEDCIN/199036",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MEDCIN/250569",
+            "RUI": "R117369344",
+            "rootSource": "MEDCIN"
+        },
+        {
+            "entity1": "Naloxone- and pentazocine-containing product",
+            "entity2": "naloxone hydrochloride + pentazocine hydrochloride",
+            "relation": "inverse_isa",
+            "relDescription": "RB",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/768381009",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MEDCIN/257644",
+            "RUI": "R181894884",
+            "rootSource": "MEDCIN"
+        },
+        {
+            "entity1": "Null",
+            "entity2": "Naloxone HCl-Pentazocine HCl",
+            "relation": "",
+            "relDescription": "RB",
+            "entity1Uri": "Null",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C1302952",
+            "RUI": "R121454559",
+            "rootSource": "MTH"
+        },
+        {
+            "entity1": "NALOXONE/PENTAZOCINE",
+            "entity2": "PENTAZOCINE HCL 50MG/NALOXONE HCL 0.5MG TAB",
+            "relation": "ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A12100361",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A8448243",
+            "RUI": "R64633820",
+            "rootSource": "VANDF"
+        },
+        {
+            "entity1": "Null",
+            "entity2": "naloxone 0.5 MG / pentazocine 50 MG Oral Tablet",
+            "relation": "",
+            "relDescription": "RB",
+            "entity1Uri": "Null",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/CUI/C0979365",
+            "RUI": "R64685622",
+            "rootSource": "MTH"
+        },
+        {
+            "entity1": "naloxone-pentazocine",
+            "entity2": "naloxone-pentazocine 0.5 mg-50 mg oral tablet",
+            "relation": "ingredient_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A1543100",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A1508254",
+            "RUI": "R01419476",
+            "rootSource": "MMSL"
+        },
+        {
+            "entity1": "naloxone / pentazocine",
+            "entity2": "naloxone 0.5 MG / pentazocine 50 MG Oral Tablet",
+            "relation": "ingredients_of",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/214721",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/312289",
+            "RUI": "R119284949",
+            "rootSource": "RXNORM"
+        },
+        {
+            "entity1": "naloxone / pentazocine",
+            "entity2": "naloxone-pentazocine",
+            "relation": "",
+            "relDescription": "SY",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31636045",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A1543100",
+            "RUI": "R194515879",
+            "rootSource": "RXNORM"
+        },
+        {
+            "entity1": "NALOXONE/PENTAZOCINE",
+            "entity2": "naloxone / pentazocine",
+            "relation": "",
+            "relDescription": "SY",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A12100361",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31636045",
+            "RUI": "R194394617",
+            "rootSource": "RXNORM"
+        },
+        {
+            "entity1": "Product containing naloxone and pentazocine (medicinal product)",
+            "entity2": "naloxone / pentazocine",
+            "relation": "",
+            "relDescription": "SY",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A29548430",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31636045",
+            "RUI": "R194103580",
+            "rootSource": "RXNORM"
+        },
+        {
+            "entity1": "Naloxone- and pentazocine-containing product",
+            "entity2": "naloxone / pentazocine",
+            "relation": "",
+            "relDescription": "SY",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A30205761",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31636045",
+            "RUI": "R194007047",
+            "rootSource": "RXNORM"
+        },
+        {
+            "entity1": "naloxone / pentazocine",
+            "entity2": "Product containing naloxone and pentazocine (medicinal product)",
+            "relation": "",
+            "relDescription": "SY",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31636045",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A29548430",
+            "RUI": "R194564536",
+            "rootSource": "RXNORM"
+        },
+        {
+            "entity1": "naloxone / pentazocine",
+            "entity2": "Naloxone- and pentazocine-containing product",
+            "relation": "",
+            "relDescription": "SY",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31636045",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A30205761",
+            "RUI": "R193983214",
+            "rootSource": "RXNORM"
+        },
+        {
+            "entity1": "naloxone / pentazocine",
+            "entity2": "NALOXONE/PENTAZOCINE",
+            "relation": "",
+            "relDescription": "SY",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31636045",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A12100361",
+            "RUI": "R194515880",
+            "rootSource": "RXNORM"
+        },
+        {
+            "entity1": "pentazocine + naloxone",
+            "entity2": "Naloxone- and pentazocine-containing product",
+            "relation": "isa",
+            "relDescription": "RN",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MEDCIN/199036",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/768381009",
+            "RUI": "R181916952",
+            "rootSource": "MEDCIN"
+        },
+        {
+            "entity1": "naloxone-pentazocine",
+            "entity2": "naloxone / pentazocine",
+            "relation": "",
+            "relDescription": "SY",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A1543100",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31636045",
+            "RUI": "R193910303",
+            "rootSource": "RXNORM"
+        },
+        {
+            "entity1": "pentazocine and naloxone",
+            "entity2": "naloxone / pentazocine",
+            "relation": "",
+            "relDescription": "SY",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A36184599",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31636045",
+            "RUI": "R220319086",
+            "rootSource": "RXNORM"
+        },
+        {
+            "entity1": "Naloxone- and pentazocine-containing product",
+            "entity2": "pentazocine + naloxone",
+            "relation": "inverse_isa",
+            "relDescription": "RB",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/768381009",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MEDCIN/199036",
+            "RUI": "R181904640",
+            "rootSource": "MEDCIN"
+        },
+        {
+            "entity1": "naloxone / pentazocine",
+            "entity2": "pentazocine and naloxone",
+            "relation": "",
+            "relDescription": "SY",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A31636045",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A36184599",
+            "RUI": "R220351448",
+            "rootSource": "RXNORM"
+        },
+        {
+            "entity1": "naloxone-pentazocine",
+            "entity2": "pentazocine",
+            "relation": "contains",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A1543100",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/AUI/A0486101",
+            "RUI": "R149949518",
+            "rootSource": "MMSL"
+        },
+        {
+            "entity1": "pentazocine + naloxone",
+            "entity2": "Pentazocine",
+            "relation": "has_active_ingredient",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/MEDCIN/199036",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/387213004",
+            "RUI": "R150173103",
+            "rootSource": "MEDCIN"
+        },
+        {
+            "entity1": "Naloxone- and pentazocine-containing product",
+            "entity2": "Pentazocine",
+            "relation": "has_active_ingredient",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/768381009",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/SNOMEDCT_US/387213004",
+            "RUI": "R179116978",
+            "rootSource": "SNOMEDCT_US"
+        },
+        {
+            "entity1": "naloxone / pentazocine",
+            "entity2": "pentazocine",
+            "relation": "has_part",
+            "relDescription": "RO",
+            "entity1Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/214721",
+            "entity2Uri": "https://uts-ws.nlm.nih.gov/rest/content/2024AA/source/RXNORM/8001",
+            "RUI": "R119278664",
+            "rootSource": "RXNORM"
+        }
+    ]
 }

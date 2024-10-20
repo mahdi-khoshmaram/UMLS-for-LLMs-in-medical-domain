@@ -49,5 +49,5 @@ def termResolver(term):
     
 
 
-a = termResolver("Naloxone")
-print(a)
+# a = termResolver("Naloxone")
+# print(a)

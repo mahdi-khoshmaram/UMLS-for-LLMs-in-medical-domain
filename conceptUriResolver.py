@@ -5,6 +5,7 @@ def conceptUriResolver(uri):
     payload = {"apiKey":ApiKey}
     r = requests.get(uri, params=payload)
     response = r.json()    
+    # print(r.url)
     return response
 
 
