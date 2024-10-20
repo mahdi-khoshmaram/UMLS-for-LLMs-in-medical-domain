@@ -23,33 +23,48 @@ def main(term):
         with open(path, "r") as jsonFile:
             concept = json.load(jsonFile)
         if concept["uriOfConceptResolved"] == True:
-            print("__concept uri exists. Not requested!__")
+            print(f"---- The concept: {resolvedConceptUri["result"]['ui']}.json has been fetched already ----")
             i += 1
             continue
 
 
-
-
+        print(f"--- {resolvedConceptUri["result"]['ui']} is receiving from UMLS ---")
+        
         concept["uriOfConceptResolved"] = True
+
         # Semantic
         concept["semanticTypes"] = resolvedConceptUri["result"]["semanticTypes"] 
+        print("-- [semanticTypes] fetched --")
+
+
         # atoms
         atoms = atomResolver(resolvedConceptUri["result"]["atoms"])
         concept["atoms"] = atoms 
+        print("-- [atoms] fetched --")
+
+
         # definition
         definitionsURI = resolvedConceptUri["result"]["definitions"]
         if not definitionsURI == "NONE":
             definitions = definitionResolver(definitionsURI)
             concept["definitions"] = definitions
+            print("-- [definitions] fetched --")
         else: 
-             concept["definitions"] = "NONE"
+            concept["definitions"] = "NONE"
+            print("-- [definitions] = NONE --")
+
+
         # Relations
         relationURI = resolvedConceptUri["result"]["relations"]
         if not relationURI == "NONE":
             relations = relationResolver(relationURI)
             concept["relations"] = relations
+            print("-- [relations] fetched --")
         else:
              concept["relations"] = "NONE"
+             print("-- [relations] = NONE -- \n")
+
+             
         # defaultPreferredAtom
         AUIofPreferred = AUIofDefaultPreferredAtom(resolvedConceptUri["result"]["defaultPreferredAtom"])
         for atom in concept["atoms"]:

@@ -3,8 +3,7 @@ from basicConceptWriter import *
 
 def termResolver(term):
     ApiKey = os.getenv("UMLS-ApiKey")
-
-
+    
     # build a directoty to save the searched terms in a json format 
     writeDirectory = "savedTerms"
     fileName = "terms.json"
@@ -23,7 +22,7 @@ def termResolver(term):
 
     # If I found term in the json file of searched terms, script will not conncet to the API
     if term in terms.keys():
-        print("--------> Message from [termResolver.py]: Term loaded!\n")
+        print(f"----- The term: [{term}] resolved to its concepts OFFLINE -----")
         return terms[term]
     
 
@@ -44,7 +43,7 @@ def termResolver(term):
         terms[term] = response
         with open(savedTermsPath, 'a') as jsonFile:
             json.dump(terms, jsonFile, indent=4)
-        print("--------> Message from [termResolver.py]: Term resolved from UMLS!\n")
+        print("----- The term: [{term}] resolved to its concepts ONLINE -----")
         return response
     
 
